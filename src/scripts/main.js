@@ -265,6 +265,8 @@ button.addEventListener('click', () => {
 
   score = 0;
 
+  messageLose.classList.add('hidden');
+
   button.classList.add('restart');
   button.textContent = 'Restart';
   generateRandomNumber();
